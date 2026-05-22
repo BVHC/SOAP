@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by XML-WS Runtime (https://github.com/eclipse-ee4j/metro-jax-ws). Runtime's version is XML-WS Runtime 4.0.2 git-revision#0264419. --><xs:schema xmlns:tns="http://soap.server.network.judge.dblab.ptit/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://soap.server.network.judge.dblab.ptit/">
+
+<xs:element name="requestCharacter" type="tns:requestCharacter"/>
+
+<xs:element name="requestCharacterResponse" type="tns:requestCharacterResponse"/>
+
+<xs:element name="requestString" type="tns:requestString"/>
+
+<xs:element name="requestStringArray" type="tns:requestStringArray"/>
+
+<xs:element name="requestStringArrayResponse" type="tns:requestStringArrayResponse"/>
+
+<xs:element name="requestStringResponse" type="tns:requestStringResponse"/>
+
+<xs:element name="submitCharacterCharArray" type="tns:submitCharacterCharArray"/>
+
+<xs:element name="submitCharacterCharArrayResponse" type="tns:submitCharacterCharArrayResponse"/>
+
+<xs:element name="submitCharacterString" type="tns:submitCharacterString"/>
+
+<xs:element name="submitCharacterStringArray" type="tns:submitCharacterStringArray"/>
+
+<xs:element name="submitCharacterStringArrayResponse" type="tns:submitCharacterStringArrayResponse"/>
+
+<xs:element name="submitCharacterStringResponse" type="tns:submitCharacterStringResponse"/>
+
+<xs:element name="submitString" type="tns:submitString"/>
+
+<xs:element name="submitStringArray" type="tns:submitStringArray"/>
+
+<xs:element name="submitStringArrayResponse" type="tns:submitStringArrayResponse"/>
+
+<xs:element name="submitStringResponse" type="tns:submitStringResponse"/>
+
+<xs:complexType name="submitCharacterStringArray">
+<xs:sequence>
+<xs:element name="studentCode" type="xs:string" minOccurs="0"/>
+<xs:element name="qCode" type="xs:string" minOccurs="0"/>
+<xs:element name="data" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="submitCharacterStringArrayResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="submitStringArray">
+<xs:sequence>
+<xs:element name="studentCode" type="xs:string" minOccurs="0"/>
+<xs:element name="qCode" type="xs:string" minOccurs="0"/>
+<xs:element name="data" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="submitStringArrayResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="requestCharacter">
+<xs:sequence>
+<xs:element name="studentCode" type="xs:string" minOccurs="0"/>
+<xs:element name="qCode" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="requestCharacterResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:unsignedShort" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="submitCharacterString">
+<xs:sequence>
+<xs:element name="studentCode" type="xs:string" minOccurs="0"/>
+<xs:element name="qCode" type="xs:string" minOccurs="0"/>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="submitCharacterStringResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="requestStringArray">
+<xs:sequence>
+<xs:element name="studentCode" type="xs:string" minOccurs="0"/>
+<xs:element name="qCode" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="requestStringArrayResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="submitString">
+<xs:sequence>
+<xs:element name="studentCode" type="xs:string" minOccurs="0"/>
+<xs:element name="qCode" type="xs:string" minOccurs="0"/>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="submitStringResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="submitCharacterCharArray">
+<xs:sequence>
+<xs:element name="studentCode" type="xs:string" minOccurs="0"/>
+<xs:element name="qCode" type="xs:string" minOccurs="0"/>
+<xs:element name="data" type="xs:unsignedShort" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="submitCharacterCharArrayResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="requestString">
+<xs:sequence>
+<xs:element name="studentCode" type="xs:string" minOccurs="0"/>
+<xs:element name="qCode" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="requestStringResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
