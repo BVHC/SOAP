@@ -1,0 +1,12 @@
+# Maven build output
+target/
+work/
+
+# NetBeans IDE
+.netbeans/
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml

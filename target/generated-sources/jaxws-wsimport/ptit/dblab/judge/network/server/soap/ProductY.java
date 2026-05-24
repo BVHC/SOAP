@@ -1,9 +1,9 @@
 
 package ptit.dblab.judge.network.server.soap;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
+import jakarta.xml.bind.annotation.XmlAccessType;
+import jakarta.xml.bind.annotation.XmlAccessorType;
+import jakarta.xml.bind.annotation.XmlType;
 
 
 /**
@@ -11,20 +11,20 @@ import javax.xml.bind.annotation.XmlType;
  * 
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
- * <pre>
- * &lt;complexType name="productY">
- *   &lt;complexContent>
- *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *       &lt;sequence>
- *         &lt;element name="discount" type="{http://www.w3.org/2001/XMLSchema}float"/>
- *         &lt;element name="finalPrice" type="{http://www.w3.org/2001/XMLSchema}float"/>
- *         &lt;element name="price" type="{http://www.w3.org/2001/XMLSchema}float"/>
- *         &lt;element name="taxRate" type="{http://www.w3.org/2001/XMLSchema}float"/>
- *       &lt;/sequence>
- *     &lt;/restriction>
- *   &lt;/complexContent>
- * &lt;/complexType>
- * </pre>
+ * <pre>{@code
+ * <complexType name="productY">
+ *   <complexContent>
+ *     <restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *       <sequence>
+ *         <element name="discount" type="{http://www.w3.org/2001/XMLSchema}float"/>
+ *         <element name="finalPrice" type="{http://www.w3.org/2001/XMLSchema}float"/>
+ *         <element name="price" type="{http://www.w3.org/2001/XMLSchema}float"/>
+ *         <element name="taxRate" type="{http://www.w3.org/2001/XMLSchema}float"/>
+ *       </sequence>
+ *     </restriction>
+ *   </complexContent>
+ * </complexType>
+ * }</pre>
  * 
  * 
  */
