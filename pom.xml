@@ -118,6 +118,7 @@
                     <catalog>${basedir}/src/jax-ws-catalog.xml</catalog>
                 </configuration>
             </plugin>
+            <!-- Use Metro 4.x only to avoid javax.* classes at runtime. -->
         </plugins>
     </build>
     <dependencies>
@@ -166,6 +167,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
-        <exec.mainClass>com.mycompany.soap.SOAP</exec.mainClass>
+        <exec.mainClass>com.mycompany.soap.SOAP1</exec.mainClass>
     </properties>
 </project>

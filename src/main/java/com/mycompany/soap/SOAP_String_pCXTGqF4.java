@@ -22,5 +22,6 @@ public class SOAP_String_pCXTGqF4 {
         String reversedString = sb.reverse().toString();
         System.out.println(reversedString);
         port.submitString(studentCode, qCode, reversedString);
+        
     }
 }

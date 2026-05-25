@@ -22,7 +22,6 @@ public class gRPC_Data_4DCGleoI {
                 .forAddress(HOST, PORT)
                 .usePlaintext()
                 .build();
-
         try {
             
             JudgeServiceGrpc.JudgeServiceBlockingStub stub

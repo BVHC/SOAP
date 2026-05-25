@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
-    <system systemId="http://36.50.135.242:2221/DataService?wsdl" uri="wsdl/36.50.135.242_2221/DataService.wsdl"/>
-    <system systemId="http://36.50.135.242:2221/DataService?xsd=1" uri="wsdl/36.50.135.242_2221/DataService.xsd_1.xsd"/>
     <system systemId="http://36.50.135.242:2221/CharacterService?wsdl" uri="wsdl/36.50.135.242_2221/CharacterService.wsdl"/>
     <system systemId="http://36.50.135.242:2221/CharacterService?xsd=1" uri="wsdl/36.50.135.242_2221/CharacterService.xsd_1.xsd"/>
     <system systemId="http://36.50.135.242:2221/ObjectService?wsdl" uri="wsdl/36.50.135.242_2221/ObjectService.wsdl"/>
     <system systemId="http://36.50.135.242:2221/ObjectService?xsd=1" uri="wsdl/36.50.135.242_2221/ObjectService.xsd_1.xsd"/>
+    <system systemId="http://36.50.135.242:2221/DataService?wsdl" uri="wsdl/36.50.135.242_2221/DataService.wsdl"/>
+    <system systemId="http://36.50.135.242:2221/DataService?xsd=1" uri="wsdl/36.50.135.242_2221/DataService.xsd_1.xsd"/>
 </catalog>

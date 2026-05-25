@@ -4,6 +4,12 @@
 <xsd:import namespace="http://soap.server.network.judge.dblab.ptit/" schemaLocation="http://36.50.135.242:2221/DataService?xsd=1"/>
 </xsd:schema>
 </types>
+<message name="submitDataStringArray">
+<part name="parameters" element="tns:submitDataStringArray"/>
+</message>
+<message name="submitDataStringArrayResponse">
+<part name="parameters" element="tns:submitDataStringArrayResponse"/>
+</message>
 <message name="getDataDouble">
 <part name="parameters" element="tns:getDataDouble"/>
 </message>
@@ -28,12 +34,6 @@
 <message name="submitDataStringResponse">
 <part name="parameters" element="tns:submitDataStringResponse"/>
 </message>
-<message name="submitDataStringArray">
-<part name="parameters" element="tns:submitDataStringArray"/>
-</message>
-<message name="submitDataStringArrayResponse">
-<part name="parameters" element="tns:submitDataStringArrayResponse"/>
-</message>
 <message name="getData">
 <part name="parameters" element="tns:getData"/>
 </message>
@@ -41,6 +41,10 @@
 <part name="parameters" element="tns:getDataResponse"/>
 </message>
 <portType name="SoapDataService">
+<operation name="submitDataStringArray">
+<input wsam:Action="http://soap.server.network.judge.dblab.ptit/SoapDataService/submitDataStringArrayRequest" message="tns:submitDataStringArray"/>
+<output wsam:Action="http://soap.server.network.judge.dblab.ptit/SoapDataService/submitDataStringArrayResponse" message="tns:submitDataStringArrayResponse"/>
+</operation>
 <operation name="getDataDouble">
 <input wsam:Action="http://soap.server.network.judge.dblab.ptit/SoapDataService/getDataDoubleRequest" message="tns:getDataDouble"/>
 <output wsam:Action="http://soap.server.network.judge.dblab.ptit/SoapDataService/getDataDoubleResponse" message="tns:getDataDoubleResponse"/>
@@ -57,10 +61,6 @@
 <input wsam:Action="http://soap.server.network.judge.dblab.ptit/SoapDataService/submitDataStringRequest" message="tns:submitDataString"/>
 <output wsam:Action="http://soap.server.network.judge.dblab.ptit/SoapDataService/submitDataStringResponse" message="tns:submitDataStringResponse"/>
 </operation>
-<operation name="submitDataStringArray">
-<input wsam:Action="http://soap.server.network.judge.dblab.ptit/SoapDataService/submitDataStringArrayRequest" message="tns:submitDataStringArray"/>
-<output wsam:Action="http://soap.server.network.judge.dblab.ptit/SoapDataService/submitDataStringArrayResponse" message="tns:submitDataStringArrayResponse"/>
-</operation>
 <operation name="getData">
 <input wsam:Action="http://soap.server.network.judge.dblab.ptit/SoapDataService/getDataRequest" message="tns:getData"/>
 <output wsam:Action="http://soap.server.network.judge.dblab.ptit/SoapDataService/getDataResponse" message="tns:getDataResponse"/>
@@ -68,6 +68,15 @@
 </portType>
 <binding name="SoapDataServicePortBinding" type="tns:SoapDataService">
 <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+<operation name="submitDataStringArray">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
 <operation name="getDataDouble">
 <soap:operation soapAction=""/>
 <input>
@@ -96,15 +105,6 @@
 </output>
 </operation>
 <operation name="submitDataString">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="submitDataStringArray">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>

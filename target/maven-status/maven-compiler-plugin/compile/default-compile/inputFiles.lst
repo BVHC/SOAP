@@ -19,6 +19,7 @@ D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\SubmitEmployeeResponse.java
 D:\SOAP\src\main\java\com\mycompany\soap\SOAP_Object_pLjSbxHU.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\ObjectFactory.java
+D:\SOAP\src\main\java\com\mycompany\soap\Soap2.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\RequestStringArrayResponse.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\RequestListStudentYResponse.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\SubmitListCustomerYResponse.java
@@ -73,6 +74,7 @@ D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\RequestListCustomerY.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\SubmitProductYResponse.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\Order.java
+D:\SOAP\src\main\java\com\mycompany\soap\gRPC_Data1.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\SubmitCharacterCharArray.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\OrderY.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\SubmitDataString.java
@@ -83,6 +85,7 @@ D:\SOAP\target\generated-sources\protobuf\java\GRPC\SubmitResponse.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\package-info.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\RequestEmployeeResponse.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\GetData.java
+D:\SOAP\src\main\java\com\mycompany\soap\SOAP1.java
 D:\SOAP\target\generated-sources\protobuf\java\GRPC\SubmitResponseOrBuilder.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\SubmitCharacterStringArray.java
 D:\SOAP\target\generated-sources\jaxws-wsimport\ptit\dblab\judge\network\server\soap\Employee.java

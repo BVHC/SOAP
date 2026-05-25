@@ -27,6 +27,24 @@ public interface SoapDataService {
 
     /**
      * 
+     * @param data
+     * @param qCode
+     * @param studentCode
+     */
+    @WebMethod
+    @RequestWrapper(localName = "submitDataStringArray", targetNamespace = "http://soap.server.network.judge.dblab.ptit/", className = "ptit.dblab.judge.network.server.soap.SubmitDataStringArray")
+    @ResponseWrapper(localName = "submitDataStringArrayResponse", targetNamespace = "http://soap.server.network.judge.dblab.ptit/", className = "ptit.dblab.judge.network.server.soap.SubmitDataStringArrayResponse")
+    @Action(input = "http://soap.server.network.judge.dblab.ptit/SoapDataService/submitDataStringArrayRequest", output = "http://soap.server.network.judge.dblab.ptit/SoapDataService/submitDataStringArrayResponse")
+    public void submitDataStringArray(
+        @WebParam(name = "studentCode", targetNamespace = "")
+        String studentCode,
+        @WebParam(name = "qCode", targetNamespace = "")
+        String qCode,
+        @WebParam(name = "data", targetNamespace = "")
+        List<String> data);
+
+    /**
+     * 
      * @param qCode
      * @param studentCode
      * @return
@@ -96,24 +114,6 @@ public interface SoapDataService {
         String qCode,
         @WebParam(name = "data", targetNamespace = "")
         String data);
-
-    /**
-     * 
-     * @param data
-     * @param qCode
-     * @param studentCode
-     */
-    @WebMethod
-    @RequestWrapper(localName = "submitDataStringArray", targetNamespace = "http://soap.server.network.judge.dblab.ptit/", className = "ptit.dblab.judge.network.server.soap.SubmitDataStringArray")
-    @ResponseWrapper(localName = "submitDataStringArrayResponse", targetNamespace = "http://soap.server.network.judge.dblab.ptit/", className = "ptit.dblab.judge.network.server.soap.SubmitDataStringArrayResponse")
-    @Action(input = "http://soap.server.network.judge.dblab.ptit/SoapDataService/submitDataStringArrayRequest", output = "http://soap.server.network.judge.dblab.ptit/SoapDataService/submitDataStringArrayResponse")
-    public void submitDataStringArray(
-        @WebParam(name = "studentCode", targetNamespace = "")
-        String studentCode,
-        @WebParam(name = "qCode", targetNamespace = "")
-        String qCode,
-        @WebParam(name = "data", targetNamespace = "")
-        List<String> data);
 
     /**
      * 

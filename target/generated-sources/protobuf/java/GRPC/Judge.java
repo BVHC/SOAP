@@ -54,7 +54,7 @@ public final class Judge {
       "(\t2w\n\014JudgeService\0222\n\007Request\022\022.GRPC.Jud" +
       "geRequest\032\023.GRPC.JudgeResponse\0223\n\006Submit" +
       "\022\023.GRPC.SubmitRequest\032\024.GRPC.SubmitRespo" +
-      "nseB\010\n\004GRPCP\001b\006proto3"
+      "nseB\002P\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

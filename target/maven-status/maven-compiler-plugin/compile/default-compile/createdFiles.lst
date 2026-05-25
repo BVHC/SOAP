@@ -18,6 +18,8 @@ ptit\dblab\judge\network\server\soap\ObjectService.class
 ptit\dblab\judge\network\server\soap\SubmitString.class
 GRPC\Judge.class
 ptit\dblab\judge\network\server\soap\SubmitListCustomerResponse.class
+com\mycompany\soap\SOAP1.class
+com\mycompany\soap\gRPC_Data1.class
 ptit\dblab\judge\network\server\soap\SubmitDataString.class
 ptit\dblab\judge\network\server\soap\SubmitListCustomerY.class
 ptit\dblab\judge\network\server\soap\package-info.class
@@ -29,11 +31,13 @@ GRPC\JudgeServiceGrpc$AsyncService.class
 ptit\dblab\judge\network\server\soap\ProductY.class
 GRPC\SubmitRequest.class
 ptit\dblab\judge\network\server\soap\SubmitCharacterStringArray.class
+com\mycompany\soap\gRPC.class
 GRPC\JudgeServiceGrpc$MethodHandlers.class
 ptit\dblab\judge\network\server\soap\RequestListStudentResponse.class
 GRPC\JudgeServiceGrpc$JudgeServiceStub.class
 GRPC\SubmitRequest$Builder.class
 ptit\dblab\judge\network\server\soap\SubmitCharacterCharArray.class
+com\mycompany\soap\SOAP_Object_pLjSbxHU.class
 ptit\dblab\judge\network\server\soap\SubmitStringArray.class
 ptit\dblab\judge\network\server\soap\RequestListEmployeeY.class
 ptit\dblab\judge\network\server\soap\SubmitListCustomer.class
@@ -52,6 +56,7 @@ ptit\dblab\judge\network\server\soap\RequestListOrder.class
 ptit\dblab\judge\network\server\soap\SubmitListOrderY.class
 ptit\dblab\judge\network\server\soap\RequestListCustomer.class
 ptit\dblab\judge\network\server\soap\SoapObjectService.class
+com\mycompany\soap\SOAP_String_pCXTGqF4.class
 ptit\dblab\judge\network\server\soap\GetDataDouble.class
 ptit\dblab\judge\network\server\soap\SubmitCharacterStringResponse.class
 ptit\dblab\judge\network\server\soap\SubmitListStudent.class
@@ -64,7 +69,9 @@ ptit\dblab\judge\network\server\soap\SubmitListEmployeeY.class
 GRPC\SubmitResponse$1.class
 ptit\dblab\judge\network\server\soap\RequestEmployee.class
 ptit\dblab\judge\network\server\soap\SubmitProductYResponse.class
+com\mycompany\soap\gRPC_Data_4DCGleoI.class
 ptit\dblab\judge\network\server\soap\RequestListStudentYResponse.class
+com\mycompany\soap\Soap2.class
 ptit\dblab\judge\network\server\soap\SubmitDataStringArray.class
 ptit\dblab\judge\network\server\soap\SubmitCharacterCharArrayResponse.class
 GRPC\JudgeServiceGrpc.class
@@ -95,6 +102,7 @@ GRPC\JudgeServiceGrpc$JudgeServiceMethodDescriptorSupplier.class
 GRPC\JudgeServiceGrpc$JudgeServiceBaseDescriptorSupplier.class
 ptit\dblab\judge\network\server\soap\SubmitListOrderYResponse.class
 ptit\dblab\judge\network\server\soap\RequestListOrderResponse.class
+com\mycompany\soap\SOAP.class
 ptit\dblab\judge\network\server\soap\RequestListCustomerResponse.class
 ptit\dblab\judge\network\server\soap\DataService.class
 ptit\dblab\judge\network\server\soap\RequestListEmployeeYResponse.class
