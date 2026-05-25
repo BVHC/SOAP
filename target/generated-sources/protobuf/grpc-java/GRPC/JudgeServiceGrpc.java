@@ -3,6 +3,9 @@ package GRPC;
 import static io.grpc.MethodDescriptor.generateFullMethodName;
 
 /**
+ * <pre>
+ * Backward-compatible string-based judging service.
+ * </pre>
  */
 @javax.annotation.Generated(
     value = "by gRPC proto compiler (version 1.63.0)",
@@ -122,6 +125,9 @@ public final class JudgeServiceGrpc {
   }
 
   /**
+   * <pre>
+   * Backward-compatible string-based judging service.
+   * </pre>
    */
   public interface AsyncService {
 
@@ -142,6 +148,9 @@ public final class JudgeServiceGrpc {
 
   /**
    * Base class for the server implementation of the service JudgeService.
+   * <pre>
+   * Backward-compatible string-based judging service.
+   * </pre>
    */
   public static abstract class JudgeServiceImplBase
       implements io.grpc.BindableService, AsyncService {
@@ -153,6 +162,9 @@ public final class JudgeServiceGrpc {
 
   /**
    * A stub to allow clients to do asynchronous rpc calls to service JudgeService.
+   * <pre>
+   * Backward-compatible string-based judging service.
+   * </pre>
    */
   public static final class JudgeServiceStub
       extends io.grpc.stub.AbstractAsyncStub<JudgeServiceStub> {
@@ -186,6 +198,9 @@ public final class JudgeServiceGrpc {
 
   /**
    * A stub to allow clients to do synchronous rpc calls to service JudgeService.
+   * <pre>
+   * Backward-compatible string-based judging service.
+   * </pre>
    */
   public static final class JudgeServiceBlockingStub
       extends io.grpc.stub.AbstractBlockingStub<JudgeServiceBlockingStub> {
@@ -217,6 +232,9 @@ public final class JudgeServiceGrpc {
 
   /**
    * A stub to allow clients to do ListenableFuture-style rpc calls to service JudgeService.
+   * <pre>
+   * Backward-compatible string-based judging service.
+   * </pre>
    */
   public static final class JudgeServiceFutureStub
       extends io.grpc.stub.AbstractFutureStub<JudgeServiceFutureStub> {

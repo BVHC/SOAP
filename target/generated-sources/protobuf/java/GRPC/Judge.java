@@ -35,6 +35,96 @@ public final class Judge {
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GRPC_SubmitResponse_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_TypedJudgeRequest_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_TypedJudgeRequest_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_TypedJudgeResponse_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_TypedJudgeResponse_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_TypedSubmitRequest_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_TypedSubmitRequest_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_TypedSubmitResponse_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_TypedSubmitResponse_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_TransactionRecord_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_TransactionRecord_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_TransactionRiskBatchData_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_TransactionRiskBatchData_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_TransactionRiskAnswer_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_TransactionRiskAnswer_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_SensorReading_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_SensorReading_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_SensorTelemetryData_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_SensorTelemetryData_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_SensorTelemetryAnswer_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_SensorTelemetryAnswer_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_TextBatchData_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_TextBatchData_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_TextBatchAnswer_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_TextBatchAnswer_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_TextBatchAnswer_CountsEntry_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_TextBatchAnswer_CountsEntry_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_CarrierQuote_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_CarrierQuote_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_ShippingQuoteData_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_ShippingQuoteData_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_ShippingQuoteAnswer_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_ShippingQuoteAnswer_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_EnrollmentData_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_EnrollmentData_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_GRPC_EnrollmentAnswer_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_GRPC_EnrollmentAnswer_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -51,10 +141,66 @@ public final class Judge {
       "_code\030\001 \001(\t\022\026\n\016question_alias\030\002 \001(\t\022\022\n\nr" +
       "equest_id\030\003 \001(\t\022\016\n\006answer\030\004 \001(\t\"1\n\016Submi" +
       "tResponse\022\016\n\006status\030\001 \001(\t\022\017\n\007message\030\002 \001" +
-      "(\t2w\n\014JudgeService\0222\n\007Request\022\022.GRPC.Jud" +
-      "geRequest\032\023.GRPC.JudgeResponse\0223\n\006Submit" +
-      "\022\023.GRPC.SubmitRequest\032\024.GRPC.SubmitRespo" +
-      "nseB\002P\001b\006proto3"
+      "(\t\"A\n\021TypedJudgeRequest\022\024\n\014student_code\030" +
+      "\001 \001(\t\022\026\n\016question_alias\030\002 \001(\t\"\263\002\n\022TypedJ" +
+      "udgeResponse\022\022\n\nrequest_id\030\001 \001(\t\022@\n\026tran" +
+      "saction_risk_batch\030\n \001(\0132\036.GRPC.Transact" +
+      "ionRiskBatchDataH\000\0225\n\020sensor_telemetry\030\013" +
+      " \001(\0132\031.GRPC.SensorTelemetryDataH\000\022)\n\ntex" +
+      "t_batch\030\014 \001(\0132\023.GRPC.TextBatchDataH\000\0221\n\016" +
+      "shipping_quote\030\r \001(\0132\027.GRPC.ShippingQuot" +
+      "eDataH\000\022*\n\nenrollment\030\016 \001(\0132\024.GRPC.Enrol" +
+      "lmentDataH\000B\006\n\004data\"\205\003\n\022TypedSubmitReque" +
+      "st\022\024\n\014student_code\030\001 \001(\t\022\026\n\016question_ali" +
+      "as\030\002 \001(\t\022\022\n\nrequest_id\030\003 \001(\t\022>\n\027transact" +
+      "ion_risk_answer\030\n \001(\0132\033.GRPC.Transaction" +
+      "RiskAnswerH\000\022>\n\027sensor_telemetry_answer\030" +
+      "\013 \001(\0132\033.GRPC.SensorTelemetryAnswerH\000\0222\n\021" +
+      "text_batch_answer\030\014 \001(\0132\025.GRPC.TextBatch" +
+      "AnswerH\000\022:\n\025shipping_quote_answer\030\r \001(\0132" +
+      "\031.GRPC.ShippingQuoteAnswerH\000\0223\n\021enrollme" +
+      "nt_answer\030\016 \001(\0132\026.GRPC.EnrollmentAnswerH" +
+      "\000B\010\n\006answer\"6\n\023TypedSubmitResponse\022\016\n\006st" +
+      "atus\030\001 \001(\t\022\017\n\007message\030\002 \001(\t\"\214\001\n\021Transact" +
+      "ionRecord\022\026\n\016transaction_id\030\001 \001(\t\022\016\n\006amo" +
+      "unt\030\002 \001(\001\022\020\n\010currency\030\003 \001(\t\022\017\n\007country\030\004" +
+      " \001(\t\022\030\n\020chargeback_count\030\005 \001(\005\022\022\n\nnew_de" +
+      "vice\030\006 \001(\010\"I\n\030TransactionRiskBatchData\022-" +
+      "\n\014transactions\030\001 \003(\0132\027.GRPC.TransactionR" +
+      "ecord\"p\n\025TransactionRiskAnswer\022!\n\031high_r" +
+      "isk_transaction_ids\030\001 \003(\t\022\024\n\014review_coun" +
+      "t\030\002 \001(\005\022\036\n\026total_high_risk_amount\030\003 \001(\001\"" +
+      "R\n\rSensorReading\022\021\n\tsensor_id\030\001 \001(\t\022\037\n\027t" +
+      "imestamp_epoch_seconds\030\002 \001(\003\022\r\n\005value\030\003 " +
+      "\001(\001\"O\n\023SensorTelemetryData\022%\n\010readings\030\001" +
+      " \003(\0132\023.GRPC.SensorReading\022\021\n\tthreshold\030\002" +
+      " \001(\001\"L\n\025SensorTelemetryAnswer\022\017\n\007average" +
+      "\030\001 \001(\001\022\013\n\003p95\030\002 \001(\001\022\025\n\ranomaly_count\030\003 \001" +
+      "(\005\".\n\rTextBatchData\022\017\n\007entries\030\001 \003(\t\022\014\n\004" +
+      "mode\030\002 \001(\t\"\203\001\n\017TextBatchAnswer\022\016\n\006values" +
+      "\030\001 \003(\t\0221\n\006counts\030\002 \003(\0132!.GRPC.TextBatchA" +
+      "nswer.CountsEntry\032-\n\013CountsEntry\022\013\n\003key\030" +
+      "\001 \001(\t\022\r\n\005value\030\002 \001(\005:\0028\001\"l\n\014CarrierQuote" +
+      "\022\017\n\007carrier\030\001 \001(\t\022\020\n\010base_fee\030\002 \001(\001\022\022\n\np" +
+      "er_kg_fee\030\003 \001(\001\022\020\n\010eta_days\030\004 \001(\005\022\023\n\013rel" +
+      "iability\030\005 \001(\001\"r\n\021ShippingQuoteData\022\020\n\010o" +
+      "rder_id\030\001 \001(\t\022\021\n\tweight_kg\030\002 \001(\001\022\024\n\014max_" +
+      "eta_days\030\003 \001(\005\022\"\n\006quotes\030\004 \003(\0132\022.GRPC.Ca" +
+      "rrierQuote\"K\n\023ShippingQuoteAnswer\022\017\n\007car" +
+      "rier\030\001 \001(\t\022\021\n\ttotal_fee\030\002 \001(\001\022\020\n\010eta_day" +
+      "s\030\003 \001(\005\"w\n\016EnrollmentData\022\022\n\nstudent_id\030" +
+      "\001 \001(\t\022\031\n\021completed_courses\030\002 \003(\t\022\030\n\020requ" +
+      "ired_courses\030\003 \003(\t\022\013\n\003gpa\030\004 \001(\001\022\017\n\007min_g" +
+      "pa\030\005 \001(\001\"N\n\020EnrollmentAnswer\022\020\n\010eligible" +
+      "\030\001 \001(\010\022\027\n\017missing_courses\030\002 \003(\t\022\017\n\007gpa_g" +
+      "ap\030\003 \001(\0012w\n\014JudgeService\0222\n\007Request\022\022.GR" +
+      "PC.JudgeRequest\032\023.GRPC.JudgeResponse\0223\n\006" +
+      "Submit\022\023.GRPC.SubmitRequest\032\024.GRPC.Submi" +
+      "tResponse2\232\001\n\021TypedJudgeService\022A\n\014Reque" +
+      "stTyped\022\027.GRPC.TypedJudgeRequest\032\030.GRPC." +
+      "TypedJudgeResponse\022B\n\013SubmitTyped\022\030.GRPC" +
+      ".TypedSubmitRequest\032\031.GRPC.TypedSubmitRe" +
+      "sponseB\002P\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -84,6 +230,114 @@ public final class Judge {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GRPC_SubmitResponse_descriptor,
         new java.lang.String[] { "Status", "Message", });
+    internal_static_GRPC_TypedJudgeRequest_descriptor =
+      getDescriptor().getMessageTypes().get(4);
+    internal_static_GRPC_TypedJudgeRequest_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_TypedJudgeRequest_descriptor,
+        new java.lang.String[] { "StudentCode", "QuestionAlias", });
+    internal_static_GRPC_TypedJudgeResponse_descriptor =
+      getDescriptor().getMessageTypes().get(5);
+    internal_static_GRPC_TypedJudgeResponse_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_TypedJudgeResponse_descriptor,
+        new java.lang.String[] { "RequestId", "TransactionRiskBatch", "SensorTelemetry", "TextBatch", "ShippingQuote", "Enrollment", "Data", });
+    internal_static_GRPC_TypedSubmitRequest_descriptor =
+      getDescriptor().getMessageTypes().get(6);
+    internal_static_GRPC_TypedSubmitRequest_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_TypedSubmitRequest_descriptor,
+        new java.lang.String[] { "StudentCode", "QuestionAlias", "RequestId", "TransactionRiskAnswer", "SensorTelemetryAnswer", "TextBatchAnswer", "ShippingQuoteAnswer", "EnrollmentAnswer", "Answer", });
+    internal_static_GRPC_TypedSubmitResponse_descriptor =
+      getDescriptor().getMessageTypes().get(7);
+    internal_static_GRPC_TypedSubmitResponse_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_TypedSubmitResponse_descriptor,
+        new java.lang.String[] { "Status", "Message", });
+    internal_static_GRPC_TransactionRecord_descriptor =
+      getDescriptor().getMessageTypes().get(8);
+    internal_static_GRPC_TransactionRecord_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_TransactionRecord_descriptor,
+        new java.lang.String[] { "TransactionId", "Amount", "Currency", "Country", "ChargebackCount", "NewDevice", });
+    internal_static_GRPC_TransactionRiskBatchData_descriptor =
+      getDescriptor().getMessageTypes().get(9);
+    internal_static_GRPC_TransactionRiskBatchData_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_TransactionRiskBatchData_descriptor,
+        new java.lang.String[] { "Transactions", });
+    internal_static_GRPC_TransactionRiskAnswer_descriptor =
+      getDescriptor().getMessageTypes().get(10);
+    internal_static_GRPC_TransactionRiskAnswer_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_TransactionRiskAnswer_descriptor,
+        new java.lang.String[] { "HighRiskTransactionIds", "ReviewCount", "TotalHighRiskAmount", });
+    internal_static_GRPC_SensorReading_descriptor =
+      getDescriptor().getMessageTypes().get(11);
+    internal_static_GRPC_SensorReading_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_SensorReading_descriptor,
+        new java.lang.String[] { "SensorId", "TimestampEpochSeconds", "Value", });
+    internal_static_GRPC_SensorTelemetryData_descriptor =
+      getDescriptor().getMessageTypes().get(12);
+    internal_static_GRPC_SensorTelemetryData_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_SensorTelemetryData_descriptor,
+        new java.lang.String[] { "Readings", "Threshold", });
+    internal_static_GRPC_SensorTelemetryAnswer_descriptor =
+      getDescriptor().getMessageTypes().get(13);
+    internal_static_GRPC_SensorTelemetryAnswer_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_SensorTelemetryAnswer_descriptor,
+        new java.lang.String[] { "Average", "P95", "AnomalyCount", });
+    internal_static_GRPC_TextBatchData_descriptor =
+      getDescriptor().getMessageTypes().get(14);
+    internal_static_GRPC_TextBatchData_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_TextBatchData_descriptor,
+        new java.lang.String[] { "Entries", "Mode", });
+    internal_static_GRPC_TextBatchAnswer_descriptor =
+      getDescriptor().getMessageTypes().get(15);
+    internal_static_GRPC_TextBatchAnswer_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_TextBatchAnswer_descriptor,
+        new java.lang.String[] { "Values", "Counts", });
+    internal_static_GRPC_TextBatchAnswer_CountsEntry_descriptor =
+      internal_static_GRPC_TextBatchAnswer_descriptor.getNestedTypes().get(0);
+    internal_static_GRPC_TextBatchAnswer_CountsEntry_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_TextBatchAnswer_CountsEntry_descriptor,
+        new java.lang.String[] { "Key", "Value", });
+    internal_static_GRPC_CarrierQuote_descriptor =
+      getDescriptor().getMessageTypes().get(16);
+    internal_static_GRPC_CarrierQuote_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_CarrierQuote_descriptor,
+        new java.lang.String[] { "Carrier", "BaseFee", "PerKgFee", "EtaDays", "Reliability", });
+    internal_static_GRPC_ShippingQuoteData_descriptor =
+      getDescriptor().getMessageTypes().get(17);
+    internal_static_GRPC_ShippingQuoteData_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_ShippingQuoteData_descriptor,
+        new java.lang.String[] { "OrderId", "WeightKg", "MaxEtaDays", "Quotes", });
+    internal_static_GRPC_ShippingQuoteAnswer_descriptor =
+      getDescriptor().getMessageTypes().get(18);
+    internal_static_GRPC_ShippingQuoteAnswer_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_ShippingQuoteAnswer_descriptor,
+        new java.lang.String[] { "Carrier", "TotalFee", "EtaDays", });
+    internal_static_GRPC_EnrollmentData_descriptor =
+      getDescriptor().getMessageTypes().get(19);
+    internal_static_GRPC_EnrollmentData_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_EnrollmentData_descriptor,
+        new java.lang.String[] { "StudentId", "CompletedCourses", "RequiredCourses", "Gpa", "MinGpa", });
+    internal_static_GRPC_EnrollmentAnswer_descriptor =
+      getDescriptor().getMessageTypes().get(20);
+    internal_static_GRPC_EnrollmentAnswer_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_GRPC_EnrollmentAnswer_descriptor,
+        new java.lang.String[] { "Eligible", "MissingCourses", "GpaGap", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)
