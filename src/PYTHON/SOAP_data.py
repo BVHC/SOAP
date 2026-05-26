@@ -8,7 +8,7 @@ client = Client(wsdl=wsdl_url)
 
 # 2. Khai báo mã sinh viên và mã câu hỏi (qCode)
 studentCode = "B22DCCN292"
-qCode = "MkEUWFPQ" # <-- CHÚ Ý: BẠN HÃY THAY MÃ CÂU HỎI VÀO ĐÂY!
+qCode = "MkEUWFPQ" 
 
 # 3. Lấy danh sách số nguyên từ server
 # Hàm thật trong WSDL là getData(studentCode, qCode)

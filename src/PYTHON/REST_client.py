@@ -1,6 +1,9 @@
 import requests
 import re
 
+
+# python -m pip install requests
+
 def run():
     student_code = "B22DCCN292"
     question_alias = "vII49QII"
